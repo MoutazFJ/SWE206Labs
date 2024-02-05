@@ -1,1 +1,2 @@
-{\rtf1}
+public class Sorter {
+}
