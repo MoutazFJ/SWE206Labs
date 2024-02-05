@@ -16,4 +16,9 @@ public class Sorter<T extends Comparable<T>> {
             array[i] = temp;
         }
     }
+
+    public void sort(T[] array) {
+        selectionSort(array);
+    }
+
 }
