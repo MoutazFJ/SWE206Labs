@@ -1,4 +1,6 @@
 public class Sorter<T extends Comparable<T>> {
+
+
     public void selectionSort(T[] array) {
 
         // Traverse through all array elements
@@ -18,7 +20,7 @@ public class Sorter<T extends Comparable<T>> {
     }
 
 
-        public void insertionSort(int arr[])
+        public void insertionSort(int[] arr)
         {
             int n = arr.length;
             for (int i = 1; i < n; ++i) {
@@ -34,6 +36,10 @@ public class Sorter<T extends Comparable<T>> {
                 }
                 arr[j + 1] = key;
             }
+        }
+
+        public void sort(int[] arr){
+            insertionSort(arr);
         }
     }
 
